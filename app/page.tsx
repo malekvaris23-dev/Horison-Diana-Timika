@@ -1,0 +1,1 @@
+import{Hero}from'@/components/Hero';import{Intro,Story,Reputation,ContactPanel}from'@/components/Content';export default function Home(){return <main><Hero/><Intro/><Story/><Reputation/><ContactPanel/></main>}
