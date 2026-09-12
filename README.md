@@ -1,18 +1,15 @@
-# Horison Diana Timika — Website Demo
+# Horison Diana Timika — Premium Website Concept
 
-Premium responsive hotel website concept for Horison Diana Timika, Timika, Central Papua.
+A five-page Next.js + TypeScript + Tailwind CSS + Framer Motion hotel website concept for Horison Diana Timika.
 
-## Included
-- Luxury dark/gold visual system
-- Responsive mobile layout
-- Smooth anchor navigation
-- Hotel amenities and facilities
-- Google rating/review section based on supplied business information
-- Call and WhatsApp CTAs
-- GitHub Pages-ready `index.html`
+Pages: Home · Rooms & Suites · Experience · Dining & Events · Location / Contact
 
-## Important
-This is a **demo concept**, not the hotel's official website. Verify business details, photos, branding, claims, reviews, and contact information with the hotel before commercial launch.
+The business details are centralized in `components/siteData.ts`. Unsupported operational details such as inventory, prices, capacities, booking policies and exact room inclusions are intentionally not invented.
+
+**Important:** This is a website concept/demo, not the hotel's official website. Verify business details, photography, branding, claims, reviews, contact information, room types and operational policies with the hotel before commercial launch.
+
+## Run locally
+`npm install` then `npm run dev`
 
 ## GitHub Pages
-In the repository, open **Settings → Pages → Deploy from a branch → main → / (root)** and save. GitHub will provide the Pages URL.
+Configured for static export with `output: 'export'` and a GitHub Actions Pages workflow.
